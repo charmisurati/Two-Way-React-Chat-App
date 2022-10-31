@@ -1,0 +1,172 @@
+.login{
+  /* width: 100%; */
+  border: 1px solid green;
+  /* padding: 50px; */
+  padding: 25px 25px;
+  margin: auto;
+  width: 50%;
+  margin-top: 10%;
+  max-width: calc(100% - 20px);
+  /* margin: 0 auto;
+  padding: 0 10px; */
+}
+
+.login button{
+    padding: 10px 50px;
+    font-weight:500;
+    font-size: 18px;    
+}
+
+.chat-container{
+    border: 1px solid green;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* height: 100vh;         */
+    /* padding: 50px; */
+}
+
+.userimg img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.user-section{
+    padding: 20px;   
+}
+
+.userInfo span{
+    margin-left: 14px;
+    font-size: 18px;    
+}
+
+.online{
+    height: 15px;
+    width: 15px;
+    background-color: #007C00;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.row>*{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.chat-head{
+    border-bottom: 1px solid black;
+    background-color: #202C33;
+    padding: 10px;
+}
+
+.chat-head img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.chat-head span{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.chat-body{
+    background-color: #ffffff;   
+    height: 500px;
+    padding: 35px;
+    overflow-y: scroll;
+}
+.chat-footer .form-control {
+    border: 0;
+    padding-right: 50px;
+    height: 65px;
+    border-radius: 0;
+    width: 100%;
+}
+.message p span{
+    background-color: #4f5d75;
+    color: #ffffff;
+    padding: 5px 13px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    max-width: 250px;
+    width: auto;
+    min-width: 10px;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 8px;
+}
+
+.user-chat {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.message.user-msg{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.message.user-msg > p {
+    text-align: right;
+}
+
+.message.user-msg > p > span {
+    background-color: #909db4;
+}
+
+.chat-footer{
+    padding: 0;
+    position: relative;
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+.chat-footer .chat-text {
+    margin-bottom: 0;
+}
+
+.chat-footer a {
+    position: absolute;
+    right: 15px;
+    font-size: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    background-color: transparent;
+    color: #4f5d75;
+}
+
+.chat-container .col-md-3{
+    border-right: 1px solid black;
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .login{
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .login{
+        width: 70%;
+    }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .login{
+        width: 60%;
+    }
+}
